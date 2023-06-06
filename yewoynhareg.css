@@ -1,0 +1,168 @@
+body {
+    display: grid;
+    grid-template-rows: 25% 1fr 1fr 1fr;
+    background-image: url(b04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+
+}
+@media only screen and (min-width: 100px) and (max-width: 720px){
+    body{
+        background-image: none; background-color: rgb(225, 147, 92);
+    }
+    
+}
+
+#Home {
+    background-image: url(b08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 30% 40% 30%;
+    font-size: 30px;
+    color: rgb(43, 0, 0);
+    font-weight: 600;
+    border: 25px solid rgb(164, 216, 238);
+    padding: 20px solid;
+    margin: 80px solid;
+    outline-width: 80px solid black;
+}
+
+.homein img {
+    margin-top: 20%;
+    height: 300px;
+    width: 250px;
+    border-radius: 40%;
+}
+
+.homein {
+    align-items: center;
+    order: 1;
+    margin-top: 15px;
+
+}
+
+.sociallinksright {
+    margin: 40%;
+    order: 2;
+   
+}
+
+.sociallinksleft {
+    margin: 40%;
+    order: 0;
+ 
+}
+
+.links {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(93, 36, 36);
+    display: column-block;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(42, 16, 16);
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgb(247, 198, 198);
+}
+
+.sociallinksright img {
+    border-radius: 50%;
+    height: 60px;
+    width: 50px;
+
+}
+
+.leftnav img {
+    border-radius: 90%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: rgb(189, 153, 222);
+    display: flex;
+    width: 3000px;
+}
+
+.leftnav {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+}
+
+.rightnav {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: right;
+
+}
+
+.sociallinksleft img {
+    border-radius: 50%;
+    height: 60px;
+    width: 50px;
+
+}
+
+#About {
+    display: flex;
+    
+}
+
+.leftimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: left 35%;
+    margin-top: 70px;
+    
+    width: 50%;
+    margin-left: 90px;
+    
+}
+
+.right {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.centerlists {
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+    align-items: center;
+}
+
+#Contact {
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.contactlinks img {
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+}

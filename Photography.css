@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(217, 178, 227);
+}
+.photo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
+    margin:  50px;
+    align-items: center;
+    gap: 50px;
+}
+img{
+    height: 300px;
+     width: 250px;
+     
+}
